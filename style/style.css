@@ -1,0 +1,47 @@
+/* Т.к. краткого описания товара как такого у меня нет на странице
+dool_catalog.html, то в качетсве зоголовков (д.з. пункт 4) у меня меню второго уровня .menu1
+а краткое описание товара меню третьего уровня.menu2
+Полное описание товара и список .menu3*/
+body {
+    font: 20px Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #f8f8f8; /* Цвет фона */
+   }
+.menu li {
+    font: 22px Arial, Helvetica, sans-serif; /* Шрифт в меню */
+    display: inline-block;
+    list-style-type:none;
+    
+}
+h3, .menu1 {
+    font: 18px Arial, Helvetica, sans-serif; /* Шрифт в меню */
+    font-weight: 400;
+    background: #eaeaea; /* Цвет фона */
+}
+.menu2 {
+    color: #707070;
+    font: 14px Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 16px;
+    
+}
+img[src] {
+    border: 2px inset red;
+ 
+}
+.menu3 {
+    color: #484343;
+    font: 16px Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    list-style-type:lower-alpha;
+        
+}
+input {
+    color: #852545;
+    font: 12px Arial, Helvetica, sans-serif;
+    width: 5cm;
+    line-height: 14px;
+    
+}
+
