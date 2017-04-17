@@ -4,6 +4,6 @@
 var name;
 var admin;
 
-name = "Василий";
+name = "Василий Пупкин";
 admin = name;
 alert(admin);
